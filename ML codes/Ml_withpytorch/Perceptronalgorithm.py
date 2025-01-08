@@ -7,7 +7,7 @@ def predict(row, weights):
 
 # Test predictions
 dataset = [
-    [2.7810836, 2.550537003, 0],
+    [2.888, 2.550537003, 0],
     [1.465489372, 2.362125076, 0],
     [3.396561688, 4.400293529, 0],
     [1.38807019, 1.850220317, 0],
@@ -24,4 +24,4 @@ for row in dataset:
     prediction = predict(row, weights)
     print("Expected=%d, Predicted=%d" % (row[-1], prediction))
 
-    
+
