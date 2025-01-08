@@ -23,3 +23,5 @@ weights = [-0.1, 0.20653640140000007, -0.23418117710000003]
 for row in dataset:
     prediction = predict(row, weights)
     print("Expected=%d, Predicted=%d" % (row[-1], prediction))
+
+    
